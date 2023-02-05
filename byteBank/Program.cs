@@ -18,7 +18,7 @@ finally
     leitor.Dispose();
 }
 
-/*
+
 try
 {
     ContaCorrente conta1 = new ContaCorrente(0, "1234-X");
@@ -43,7 +43,7 @@ catch(SaldoInsuficienteException ex)
     Console.WriteLine("Operação negada!Saldo insuficiente!");
     Console.WriteLine(ex.Message);
 }
-*/
+
 
 
 
